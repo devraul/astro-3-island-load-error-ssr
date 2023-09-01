@@ -6,10 +6,13 @@ Stackblitz uses node 16 while we're using Node 18. For this reason:
 
 1. Clone this repository in your machine
 1. install dependencies (`pnpm install`)
-1. run `pnpm run dev` (to see working fine);
+1. run `pnpm run dev`;
+1. Open `http://localhost:4321`;
+1. try to click in the side menu or locale language and see it's working
 1. stop the server
 1. run `pnpm run build`
 1. run `pnpm run start`
+1. try to click in the side menu or locale language and see it's **not** working
 
 ## Env info
 
